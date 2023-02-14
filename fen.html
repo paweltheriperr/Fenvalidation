@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEN</title>
+</head>
+<body>
+    <h1>Walidacjia FEN Do projektu z bd</h1>
+    <form>
+        <label for="fen">Pozycja szachowa w notacji FEN:</label>
+        <input type="text" id="fen" name="fen" pattern="^([rnbqkpRNBQKP1-8]+\/){7}[rnbqkpRNBQKP1-8]+ [wb] (-|[KQkq]+) (-|[a-h][36]) \d+ \d+$" required>
+        <button type="submit">Wyślij</button>
+      </form>
+</body>
+</html>
